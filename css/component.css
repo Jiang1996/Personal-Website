@@ -67,12 +67,21 @@ body {
 	-webkit-transform: translateY(-50%) translateX(-50%);
 	transform: translateY(-50%) translateX(-50%);
 }
-.profile {
+.profile-right {
 	margin: 0 auto;
 	width: 140px;
 	height: 140px;
 	border-radius: 50%;
 	background: #47a3da;
+	padding-top: 38px;
+}
+.profile-left {
+	margin: 0 auto;
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	background: white;
+	padding-top: 38px;
 }
 .profile img {
 	max-width: 100%;
